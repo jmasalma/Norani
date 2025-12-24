@@ -39,6 +39,10 @@ class NoraniFlashcards {
         this.shuffleBtn = document.getElementById('shuffle-btn');
         this.restartBtn = document.getElementById('restart-btn');
         this.backToMenuBtn = document.getElementById('back-to-menu');
+        
+        // Audio elements
+        this.audioBtn = document.getElementById('audio-btn');
+        this.audioPlayer = document.getElementById('audio-player');
     }
     
     bindEvents() {
@@ -60,6 +64,12 @@ class NoraniFlashcards {
         
         // Flashcard click to flip
         this.flashcard.addEventListener('click', () => this.flipCard());
+        
+        // Audio button
+        this.audioBtn.addEventListener('click', (e) => {
+            e.stopPropagation(); // Prevent flashcard flip
+            this.playAudio();
+        });
         
         // Keyboard navigation
         document.addEventListener('keydown', (e) => {
@@ -145,10 +155,77 @@ class NoraniFlashcards {
         this.pronunciation.textContent = `[${card.pronunciation}]`;
         this.explanation.textContent = card.explanation;
         
+        // Handle audio
+        this.setupAudio(card);
+        
         // Add animation
         this.flashcard.style.animation = 'none';
         this.flashcard.offsetHeight; // Trigger reflow
         this.flashcard.style.animation = 'cardSlide 0.3s ease-out';
+    }
+    
+    setupAudio(card) {
+        if (card.audio) {
+            this.audioBtn.style.display = 'flex';
+            this.audioPlayer.src = card.audio;
+            this.audioBtn.classList.remove('playing');
+        } else {
+            // Use text-to-speech as fallback
+            this.audioBtn.style.display = 'flex';
+            this.audioBtn.classList.remove('playing');
+        }
+    }
+    
+    playAudio() {
+        const card = this.cards[this.currentCardIndex];
+        
+        if (card.audio) {
+            // Play MP3 file if available
+            this.audioPlayer.currentTime = 0;
+            this.audioBtn.classList.add('playing');
+            
+            this.audioPlayer.play().then(() => {
+                console.log('Audio playing');
+            }).catch(error => {
+                console.log('Audio playback failed, using TTS fallback:', error);
+                this.playTextToSpeech(card);
+            });
+            
+            this.audioPlayer.onended = () => {
+                this.audioBtn.classList.remove('playing');
+            };
+        } else {
+            // Use text-to-speech as fallback
+            this.playTextToSpeech(card);
+        }
+    }
+    
+    playTextToSpeech(card) {
+        if ('speechSynthesis' in window) {
+            // Stop any ongoing speech
+            speechSynthesis.cancel();
+            
+            const utterance = new SpeechSynthesisUtterance(card.pronunciation);
+            utterance.lang = 'ar-SA'; // Arabic (Saudi Arabia)
+            utterance.rate = 0.7; // Slower speech for learning
+            utterance.pitch = 1;
+            
+            this.audioBtn.classList.add('playing');
+            
+            utterance.onend = () => {
+                this.audioBtn.classList.remove('playing');
+            };
+            
+            utterance.onerror = () => {
+                this.audioBtn.classList.remove('playing');
+                console.log('Text-to-speech failed');
+            };
+            
+            speechSynthesis.speak(utterance);
+        } else {
+            console.log('Text-to-speech not supported');
+            this.audioBtn.classList.remove('playing');
+        }
     }
     
     flipCard() {

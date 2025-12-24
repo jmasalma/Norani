@@ -41,6 +41,9 @@
                     <div class="flashcard-front">
                         <div class="arabic-text" id="arabic-text"></div>
                         <div class="hint" id="hint"></div>
+                        <button class="audio-btn" id="audio-btn" title="Play pronunciation">
+                            <span class="audio-icon">🔊</span>
+                        </button>
                     </div>
                     <div class="flashcard-back">
                         <div class="transliteration" id="transliteration"></div>
@@ -56,6 +59,8 @@
                 <button id="next-btn" class="control-btn">Next</button>
                 <button id="shuffle-btn" class="control-btn">Shuffle</button>
             </div>
+            
+            <audio id="audio-player" preload="none"></audio>
 
             <div class="lesson-controls">
                 <button id="restart-btn" class="control-btn">Restart Lesson</button>
@@ -67,6 +72,7 @@
             <h3>How to Use</h3>
             <ul>
                 <li>Select a lesson from the navigation above</li>
+                <li>Click the 🔊 audio button to hear pronunciation</li>
                 <li>Click "Show Answer" to reveal the pronunciation and explanation</li>
                 <li>Use "Next" and "Previous" to navigate through flashcards</li>
                 <li>Click "Shuffle" to randomize the order</li>

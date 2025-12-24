@@ -9,21 +9,24 @@ const flashcardsData = {
                 transliteration: "Alif",
                 pronunciation: "aa",
                 explanation: "The first letter of the Arabic alphabet. Makes a long 'aa' sound.",
-                hint: "Looks like a straight line"
+                hint: "Looks like a straight line",
+                audio: "audio/letters/alif.mp3"
             },
             {
                 arabic: "ب",
                 transliteration: "Baa",
                 pronunciation: "b",
                 explanation: "Second letter. Makes a 'b' sound like in 'book'.",
-                hint: "Has one dot below"
+                hint: "Has one dot below",
+                audio: "audio/letters/baa.mp3"
             },
             {
                 arabic: "ت",
                 transliteration: "Taa",
                 pronunciation: "t",
                 explanation: "Third letter. Makes a 't' sound like in 'top'.",
-                hint: "Has two dots above"
+                hint: "Has two dots above",
+                audio: "audio/letters/taa.mp3"
             },
             {
                 arabic: "ث",
