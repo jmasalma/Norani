@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نوراني - تعلم القراءة العربية</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">نوراني</h1>
+            <p class="subtitle">تعلم القراءة العربية بطريقة نوراني</p>
+        </header>
+
+        <nav class="lesson-nav">
+            <div class="nav-buttons">
+                <button id="prevBtn" class="nav-btn" disabled>السابق</button>
+                <span id="lessonCounter" class="lesson-counter">الدرس 1 من 17</span>
+                <button id="nextBtn" class="nav-btn">التالي</button>
+            </div>
+        </nav>
+
+        <main class="lesson-content">
+            <div class="lesson-header">
+                <h2 id="lessonTitle" class="lesson-title">الدرس الأول: الحروف العربية</h2>
+                <div class="progress-bar">
+                    <div id="progressFill" class="progress-fill"></div>
+                </div>
+            </div>
+
+            <div class="lesson-body">
+                <div id="lessonContent" class="content-area">
+                    <!-- Lesson content will be dynamically loaded here -->
+                </div>
+
+                <div class="audio-controls">
+                    <button id="playBtn" class="play-btn">▶️ تشغيل</button>
+                    <button id="pauseBtn" class="pause-btn" style="display: none;">⏸️ إيقاف</button>
+                    <button id="repeatBtn" class="repeat-btn">🔄 إعادة</button>
+                </div>
+
+                <audio id="audioPlayer" preload="metadata">
+                    <source id="audioSource" src="" type="audio/mpeg">
+                    متصفحك لا يدعم تشغيل الصوت.
+                </audio>
+            </div>
+        </main>
+
+        <div class="lesson-grid" id="lessonGrid">
+            <!-- Lesson grid will be populated by JavaScript -->
+        </div>
+
+        <footer class="footer">
+            <p>© 2025 نوراني - تعلم القراءة العربية</p>
+        </footer>
+    </div>
+
+    <script src="js/lessons.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
