@@ -33,175 +33,200 @@ const flashcardsData = {
                 transliteration: "Thaa",
                 pronunciation: "th",
                 explanation: "Fourth letter. Makes a 'th' sound like in 'think'.",
-                hint: "Has three dots above"
+                hint: "Has three dots above",
+                audio: "audio/letters/thaa.mp3"
             },
             {
                 arabic: "ج",
                 transliteration: "Jeem",
                 pronunciation: "j",
                 explanation: "Fifth letter. Makes a 'j' sound like in 'jump'.",
-                hint: "Has one dot below"
+                hint: "Has one dot below",
+                audio: "audio/letters/jeem.mp3"
             },
             {
                 arabic: "ح",
                 transliteration: "Haa",
                 pronunciation: "h",
                 explanation: "Sixth letter. Makes a breathy 'h' sound from the throat.",
-                hint: "No dots, curved shape"
+                hint: "No dots, curved shape",
+                audio: "audio/letters/haa.mp3"
             },
             {
                 arabic: "خ",
                 transliteration: "Khaa",
                 pronunciation: "kh",
                 explanation: "Seventh letter. Makes a 'kh' sound like clearing throat.",
-                hint: "Has one dot above"
+                hint: "Has one dot above",
+                audio: "audio/letters/khaa.mp3"
             },
             {
                 arabic: "د",
                 transliteration: "Daal",
                 pronunciation: "d",
                 explanation: "Eighth letter. Makes a 'd' sound like in 'door'.",
-                hint: "No dots, curved at top"
+                hint: "No dots, curved at top",
+                audio: "audio/letters/daal.mp3"
             },
             {
                 arabic: "ذ",
                 transliteration: "Dhaal",
                 pronunciation: "dh",
                 explanation: "Ninth letter. Makes a 'th' sound like in 'this'.",
-                hint: "Has one dot above"
+                hint: "Has one dot above",
+                audio: "audio/letters/dhaal.mp3"
             },
             {
                 arabic: "ر",
                 transliteration: "Raa",
                 pronunciation: "r",
                 explanation: "Tenth letter. Makes a rolled 'r' sound.",
-                hint: "No dots, curved hook"
+                hint: "No dots, curved hook",
+                audio: "audio/letters/raa.mp3"
             },
             {
                 arabic: "ز",
                 transliteration: "Zaay",
                 pronunciation: "z",
                 explanation: "Eleventh letter. Makes a 'z' sound like in 'zoo'.",
-                hint: "Has one dot above"
+                hint: "Has one dot above",
+                audio: "audio/letters/zaay.mp3"
             },
             {
                 arabic: "س",
                 transliteration: "Seen",
                 pronunciation: "s",
                 explanation: "Twelfth letter. Makes an 's' sound like in 'sun'.",
-                hint: "Has three teeth, no dots"
+                hint: "Has three teeth, no dots",
+                audio: "audio/letters/seen.mp3"
             },
             {
                 arabic: "ش",
                 transliteration: "Sheen",
                 pronunciation: "sh",
                 explanation: "Thirteenth letter. Makes a 'sh' sound like in 'ship'.",
-                hint: "Has three teeth and three dots above"
+                hint: "Has three teeth and three dots above",
+                audio: "audio/letters/sheen.mp3"
             },
             {
                 arabic: "ص",
                 transliteration: "Saad",
                 pronunciation: "s",
                 explanation: "Fourteenth letter. Makes an emphatic 's' sound.",
-                hint: "Curved with no dots"
+                hint: "Curved with no dots",
+                audio: "audio/letters/saad.mp3"
             },
             {
                 arabic: "ض",
                 transliteration: "Daad",
                 pronunciation: "d",
                 explanation: "Fifteenth letter. Makes an emphatic 'd' sound.",
-                hint: "Has one dot above"
+                hint: "Has one dot above",
+                audio: "audio/letters/daad.mp3"
             },
             {
                 arabic: "ط",
                 transliteration: "Taa",
                 pronunciation: "t",
                 explanation: "Sixteenth letter. Makes an emphatic 't' sound.",
-                hint: "Curved with no dots"
+                hint: "Curved with no dots",
+                audio: "audio/letters/taa_emphatic.mp3"
             },
             {
                 arabic: "ظ",
                 transliteration: "Dhaa",
                 pronunciation: "dh",
                 explanation: "Seventeenth letter. Makes an emphatic 'th' sound.",
-                hint: "Has one dot above"
+                hint: "Has one dot above",
+                audio: "audio/letters/dhaa_emphatic.mp3"
             },
             {
                 arabic: "ع",
                 transliteration: "Ayn",
                 pronunciation: "'a",
                 explanation: "Eighteenth letter. Makes a deep throat sound.",
-                hint: "Curved opening, no dots"
+                hint: "Curved opening, no dots",
+                audio: "audio/letters/ayn.mp3"
             },
             {
                 arabic: "غ",
                 transliteration: "Ghayn",
                 pronunciation: "gh",
                 explanation: "Nineteenth letter. Makes a gargling 'gh' sound.",
-                hint: "Has one dot above"
+                hint: "Has one dot above",
+                audio: "audio/letters/ghayn.mp3"
             },
             {
                 arabic: "ف",
                 transliteration: "Faa",
                 pronunciation: "f",
                 explanation: "Twentieth letter. Makes an 'f' sound like in 'fish'.",
-                hint: "Has one dot above"
+                hint: "Has one dot above",
+                audio: "audio/letters/faa.mp3"
             },
             {
                 arabic: "ق",
                 transliteration: "Qaaf",
                 pronunciation: "q",
                 explanation: "Twenty-first letter. Makes a deep 'q' sound from throat.",
-                hint: "Has two dots above"
+                hint: "Has two dots above",
+                audio: "audio/letters/qaaf.mp3"
             },
             {
                 arabic: "ك",
                 transliteration: "Kaaf",
                 pronunciation: "k",
                 explanation: "Twenty-second letter. Makes a 'k' sound like in 'key'.",
-                hint: "No dots, has a small tooth"
+                hint: "No dots, has a small tooth",
+                audio: "audio/letters/kaaf.mp3"
             },
             {
                 arabic: "ل",
                 transliteration: "Laam",
                 pronunciation: "l",
                 explanation: "Twenty-third letter. Makes an 'l' sound like in 'love'.",
-                hint: "No dots, tall and curved"
+                hint: "No dots, tall and curved",
+                audio: "audio/letters/laam.mp3"
             },
             {
                 arabic: "م",
                 transliteration: "Meem",
                 pronunciation: "m",
                 explanation: "Twenty-fourth letter. Makes an 'm' sound like in 'moon'.",
-                hint: "No dots, circular shape"
+                hint: "No dots, circular shape",
+                audio: "audio/letters/meem.mp3"
             },
             {
                 arabic: "ن",
                 transliteration: "Noon",
                 pronunciation: "n",
                 explanation: "Twenty-fifth letter. Makes an 'n' sound like in 'name'.",
-                hint: "Has one dot above"
+                hint: "Has one dot above",
+                audio: "audio/letters/noon.mp3"
             },
             {
                 arabic: "ه",
                 transliteration: "Haa",
                 pronunciation: "h",
                 explanation: "Twenty-sixth letter. Makes a soft 'h' sound.",
-                hint: "No dots, oval shape"
+                hint: "No dots, oval shape",
+                audio: "audio/letters/haa_soft.mp3"
             },
             {
                 arabic: "و",
                 transliteration: "Waaw",
                 pronunciation: "w/oo",
                 explanation: "Twenty-seventh letter. Makes 'w' or long 'oo' sound.",
-                hint: "No dots, curved like a hook"
+                hint: "No dots, curved like a hook",
+                audio: "audio/letters/waaw.mp3"
             },
             {
                 arabic: "ي",
                 transliteration: "Yaa",
                 pronunciation: "y/ee",
                 explanation: "Twenty-eighth letter. Makes 'y' or long 'ee' sound.",
-                hint: "Has two dots below"
+                hint: "Has two dots below",
+                audio: "audio/letters/yaa.mp3"
             }
         ]
     },
@@ -214,21 +239,24 @@ const flashcardsData = {
                 transliteration: "baa",
                 pronunciation: "baa",
                 explanation: "Baa + Alif. The letter ب connected to ا.",
-                hint: "Two letters joined"
+                hint: "Two letters joined",
+                audio: "audio/combinations/baa_alif.mp3"
             },
             {
                 arabic: "تا",
                 transliteration: "taa",
                 pronunciation: "taa",
                 explanation: "Taa + Alif. The letter ت connected to ا.",
-                hint: "Two dots above + alif"
+                hint: "Two dots above + alif",
+                audio: "audio/combinations/taa_alif.mp3"
             },
             {
                 arabic: "ثا",
                 transliteration: "thaa",
                 pronunciation: "thaa",
                 explanation: "Thaa + Alif. The letter ث connected to ا.",
-                hint: "Three dots above + alif"
+                hint: "Three dots above + alif",
+                audio: "audio/combinations/thaa_alif.mp3"
             },
             {
                 arabic: "جا",
@@ -333,7 +361,8 @@ const flashcardsData = {
                 transliteration: "laa",
                 pronunciation: "laa",
                 explanation: "Laam + Alif. Special combination لا.",
-                hint: "Special joined form"
+                hint: "Special joined form",
+                audio: "audio/combinations/laam_alif.mp3"
             },
             {
                 arabic: "ما",
@@ -374,63 +403,72 @@ const flashcardsData = {
                 transliteration: "ba",
                 pronunciation: "ba",
                 explanation: "Baa with Fatha (َ). Makes 'ba' sound like in 'bat'.",
-                hint: "Small line above = 'a' sound"
+                hint: "Small line above = 'a' sound",
+                audio: "audio/harakat/ba_fatha.mp3"
             },
             {
                 arabic: "بِ",
                 transliteration: "bi",
                 pronunciation: "bi",
                 explanation: "Baa with Kasra (ِ). Makes 'bi' sound like in 'bit'.",
-                hint: "Small line below = 'i' sound"
+                hint: "Small line below = 'i' sound",
+                audio: "audio/harakat/bi_kasra.mp3"
             },
             {
                 arabic: "بُ",
                 transliteration: "bu",
                 pronunciation: "bu",
                 explanation: "Baa with Damma (ُ). Makes 'bu' sound like in 'book'.",
-                hint: "Small curl above = 'u' sound"
+                hint: "Small curl above = 'u' sound",
+                audio: "audio/harakat/bu_damma.mp3"
             },
             {
                 arabic: "تَ",
                 transliteration: "ta",
                 pronunciation: "ta",
                 explanation: "Taa with Fatha. Makes 'ta' sound.",
-                hint: "Two dots + fatha"
+                hint: "Two dots + fatha",
+                audio: "audio/harakat/ta_fatha.mp3"
             },
             {
                 arabic: "تِ",
                 transliteration: "ti",
                 pronunciation: "ti",
                 explanation: "Taa with Kasra. Makes 'ti' sound.",
-                hint: "Two dots + kasra"
+                hint: "Two dots + kasra",
+                audio: "audio/harakat/ti_kasra.mp3"
             },
             {
                 arabic: "تُ",
                 transliteration: "tu",
                 pronunciation: "tu",
                 explanation: "Taa with Damma. Makes 'tu' sound.",
-                hint: "Two dots + damma"
+                hint: "Two dots + damma",
+                audio: "audio/harakat/tu_damma.mp3"
             },
             {
                 arabic: "ثَ",
                 transliteration: "tha",
                 pronunciation: "tha",
                 explanation: "Thaa with Fatha. Makes 'tha' sound.",
-                hint: "Three dots + fatha"
+                hint: "Three dots + fatha",
+                audio: "audio/harakat/tha_fatha.mp3"
             },
             {
                 arabic: "ثِ",
                 transliteration: "thi",
                 pronunciation: "thi",
                 explanation: "Thaa with Kasra. Makes 'thi' sound.",
-                hint: "Three dots + kasra"
+                hint: "Three dots + kasra",
+                audio: "audio/harakat/thi_kasra.mp3"
             },
             {
                 arabic: "ثُ",
                 transliteration: "thu",
                 pronunciation: "thu",
                 explanation: "Thaa with Damma. Makes 'thu' sound.",
-                hint: "Three dots + damma"
+                hint: "Three dots + damma",
+                audio: "audio/harakat/thu_damma.mp3"
             },
             {
                 arabic: "جَ",
@@ -527,21 +565,24 @@ const flashcardsData = {
                 transliteration: "baa",
                 pronunciation: "baa",
                 explanation: "Baa + Alif makes long 'aa' sound. Hold for 2 counts.",
-                hint: "Long 'aa' sound"
+                hint: "Long 'aa' sound",
+                audio: "audio/madd/baa_long.mp3"
             },
             {
                 arabic: "بو",
                 transliteration: "boo",
                 pronunciation: "boo",
                 explanation: "Baa + Waaw makes long 'oo' sound. Hold for 2 counts.",
-                hint: "Long 'oo' sound"
+                hint: "Long 'oo' sound",
+                audio: "audio/madd/boo_long.mp3"
             },
             {
                 arabic: "بي",
                 transliteration: "bee",
                 pronunciation: "bee",
                 explanation: "Baa + Yaa makes long 'ee' sound. Hold for 2 counts.",
-                hint: "Long 'ee' sound"
+                hint: "Long 'ee' sound",
+                audio: "audio/madd/bee_long.mp3"
             },
             {
                 arabic: "تا",
@@ -826,21 +867,24 @@ const flashcardsData = {
                 transliteration: "ban",
                 pronunciation: "ban",
                 explanation: "Baa with Tanween Fath (ً). Makes 'ban' sound.",
-                hint: "Double fatha = 'an' sound"
+                hint: "Double fatha = 'an' sound",
+                audio: "audio/tanween/ban_tanween.mp3"
             },
             {
                 arabic: "بٍ",
                 transliteration: "bin",
                 pronunciation: "bin",
                 explanation: "Baa with Tanween Kasr (ٍ). Makes 'bin' sound.",
-                hint: "Double kasra = 'in' sound"
+                hint: "Double kasra = 'in' sound",
+                audio: "audio/tanween/bin_tanween.mp3"
             },
             {
                 arabic: "بٌ",
                 transliteration: "bun",
                 pronunciation: "bun",
                 explanation: "Baa with Tanween Damm (ٌ). Makes 'bun' sound.",
-                hint: "Double damma = 'un' sound"
+                hint: "Double damma = 'un' sound",
+                audio: "audio/tanween/bun_tanween.mp3"
             },
             {
                 arabic: "تً",
@@ -937,7 +981,8 @@ const flashcardsData = {
                 transliteration: "al",
                 pronunciation: "al",
                 explanation: "The definite article 'Al' (الْ). Used before nouns.",
-                hint: "Alif + Laam with sukun"
+                hint: "Alif + Laam with sukun",
+                audio: "audio/advanced/al_definite.mp3"
             },
             {
                 arabic: "الْبَيْت",
@@ -965,14 +1010,16 @@ const flashcardsData = {
                 transliteration: "madrasa",
                 pronunciation: "madrasa",
                 explanation: "Madrasa means 'school'. Practice reading longer words.",
-                hint: "School - longer word"
+                hint: "School - longer word",
+                audio: "audio/advanced/madrasa.mp3"
             },
             {
                 arabic: "كِتَاب",
                 transliteration: "kitaab",
                 pronunciation: "kitaab",
                 explanation: "Kitaab means 'book'. Contains long vowel 'aa'.",
-                hint: "Book - with long vowel"
+                hint: "Book - with long vowel",
+                audio: "audio/advanced/kitaab.mp3"
             },
             {
                 arabic: "مُعَلِّم",
@@ -993,7 +1040,8 @@ const flashcardsData = {
                 transliteration: "bismillah",
                 pronunciation: "bismillah",
                 explanation: "Bismillah - 'In the name of Allah'. Common Islamic phrase.",
-                hint: "In the name of Allah"
+                hint: "In the name of Allah",
+                audio: "audio/advanced/bismillah.mp3"
             },
             {
                 arabic: "الْحَمْدُ لِلّٰه",
