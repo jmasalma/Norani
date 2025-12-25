@@ -13,6 +13,134 @@ const flashcardsData = {
                 audio: "audio/letters/alif.mp3"
             },
             {
+                arabic: "ب",
+                transliteration: "Baa",
+                pronunciation: "b",
+                explanation: "Arabic letter Baa - pronounced 'b'",
+                hint: "curved line with one dot below - second letter",
+                audio: "audio/letters/baa.mp3"
+            },
+            {
+                arabic: "ت",
+                transliteration: "Taa",
+                pronunciation: "t",
+                explanation: "Arabic letter Taa - pronounced 't'",
+                hint: "curved line with two dots above - third letter",
+                audio: "audio/letters/taa.mp3"
+            },
+            {
+                arabic: "ث",
+                transliteration: "Thaa",
+                pronunciation: "th",
+                explanation: "Arabic letter Thaa - pronounced 'th'",
+                hint: "curved line with three dots above - fourth letter",
+                audio: "audio/letters/thaa.mp3"
+            },
+            {
+                arabic: "ج",
+                transliteration: "Jeem",
+                pronunciation: "j",
+                explanation: "Arabic letter Jeem - pronounced 'j'",
+                hint: "curved shape with one dot below - fifth letter",
+                audio: "audio/letters/jeem.mp3"
+            },
+            {
+                arabic: "ح",
+                transliteration: "Haa",
+                pronunciation: "h",
+                explanation: "Arabic letter Haa - pronounced 'h'",
+                hint: "curved opening with no dots - sixth letter",
+                audio: "audio/letters/haa.mp3"
+            },
+            {
+                arabic: "خ",
+                transliteration: "Khaa",
+                pronunciation: "kh",
+                explanation: "Arabic letter Khaa - pronounced 'kh'",
+                hint: "curved opening with one dot above - seventh letter",
+                audio: "audio/letters/khaa.mp3"
+            },
+            {
+                arabic: "د",
+                transliteration: "Daal",
+                pronunciation: "d",
+                explanation: "Arabic letter Daal - pronounced 'd'",
+                hint: "curved at top with no dots - eighth letter",
+                audio: "audio/letters/daal.mp3"
+            },
+            {
+                arabic: "ذ",
+                transliteration: "Dhaal",
+                pronunciation: "dh",
+                explanation: "Arabic letter Dhaal - pronounced 'dh'",
+                hint: "curved at top with one dot above - ninth letter",
+                audio: "audio/letters/dhaal.mp3"
+            },
+            {
+                arabic: "ر",
+                transliteration: "Raa",
+                pronunciation: "r",
+                explanation: "Arabic letter Raa - pronounced 'r'",
+                hint: "curved hook shape - tenth letter",
+                audio: "audio/letters/raa.mp3"
+            },
+            {
+                arabic: "ز",
+                transliteration: "Zaay",
+                pronunciation: "z",
+                explanation: "Arabic letter Zaay - pronounced 'z'",
+                hint: "curved hook with one dot above - eleventh letter",
+                audio: "audio/letters/zaay.mp3"
+            },
+            {
+                arabic: "س",
+                transliteration: "Seen",
+                pronunciation: "s",
+                explanation: "Arabic letter Seen - pronounced 's'",
+                hint: "three connected teeth - twelfth letter",
+                audio: "audio/letters/seen.mp3"
+            },
+            {
+                arabic: "ش",
+                transliteration: "Sheen",
+                pronunciation: "sh",
+                explanation: "Arabic letter Sheen - pronounced 'sh'",
+                hint: "three teeth with three dots above - thirteenth letter",
+                audio: "audio/letters/sheen.mp3"
+            },
+            {
+                arabic: "ص",
+                transliteration: "Saad",
+                pronunciation: "s",
+                explanation: "Arabic letter Saad - pronounced 's'",
+                hint: "curved emphatic letter - fourteenth letter",
+                audio: "audio/letters/saad.mp3"
+            },
+            {
+                arabic: "ض",
+                transliteration: "Daad",
+                pronunciation: "d",
+                explanation: "Arabic letter Daad - pronounced 'd'",
+                hint: "curved with one dot above - fifteenth letter",
+                audio: "audio/letters/daad.mp3"
+            },
+            {
+                arabic: "ط",
+                transliteration: "Taa",
+                pronunciation: "t",
+                explanation: "Arabic letter Taa - pronounced 't'",
+                hint: "emphatic curved form - sixteenth letter",
+                audio: "audio/letters/taa_emphatic.mp3"
+            },
+            {
+                arabic: "ظ",
+                transliteration: "Dhaa",
+                pronunciation: "dh",
+                explanation: "Arabic letter Dhaa - pronounced 'dh'",
+                hint: "emphatic with one dot above - seventeenth letter",
+                audio: "audio/letters/dhaa_emphatic.mp3"
+            },
+            {
                 arabic: "ع",
                 transliteration: "Ayn",
                 pronunciation: "a",
@@ -21,12 +149,84 @@ const flashcardsData = {
                 audio: "audio/letters/ayn.mp3"
             },
             {
-                arabic: "ب",
-                transliteration: "Baa",
-                pronunciation: "b",
-                explanation: "Arabic letter Baa - pronounced 'b'",
-                hint: "curved line with one dot below - second letter",
-                audio: "audio/letters/baa.mp3"
+                arabic: "غ",
+                transliteration: "Ghayn",
+                pronunciation: "gh",
+                explanation: "Arabic letter Ghayn - pronounced 'gh'",
+                hint: "curved opening with one dot above - nineteenth letter",
+                audio: "audio/letters/ghayn.mp3"
+            },
+            {
+                arabic: "ف",
+                transliteration: "Faa",
+                pronunciation: "f",
+                explanation: "Arabic letter Faa - pronounced 'f'",
+                hint: "circle with one dot above - twentieth letter",
+                audio: "audio/letters/faa.mp3"
+            },
+            {
+                arabic: "ق",
+                transliteration: "Qaaf",
+                pronunciation: "q",
+                explanation: "Arabic letter Qaaf - pronounced 'q'",
+                hint: "circle with two dots above - twenty-first letter",
+                audio: "audio/letters/qaaf.mp3"
+            },
+            {
+                arabic: "ك",
+                transliteration: "Kaaf",
+                pronunciation: "k",
+                explanation: "Arabic letter Kaaf - pronounced 'k'",
+                hint: "angular shape with small tooth - twenty-second letter",
+                audio: "audio/letters/kaaf.mp3"
+            },
+            {
+                arabic: "ل",
+                transliteration: "Laam",
+                pronunciation: "l",
+                explanation: "Arabic letter Laam - pronounced 'l'",
+                hint: "tall curved letter - twenty-third letter",
+                audio: "audio/letters/laam.mp3"
+            },
+            {
+                arabic: "م",
+                transliteration: "Meem",
+                pronunciation: "m",
+                explanation: "Arabic letter Meem - pronounced 'm'",
+                hint: "circular closed shape - twenty-fourth letter",
+                audio: "audio/letters/meem.mp3"
+            },
+            {
+                arabic: "ن",
+                transliteration: "Noon",
+                pronunciation: "n",
+                explanation: "Arabic letter Noon - pronounced 'n'",
+                hint: "curved with one dot above - twenty-fifth letter",
+                audio: "audio/letters/noon.mp3"
+            },
+            {
+                arabic: "ه",
+                transliteration: "Haa",
+                pronunciation: "h",
+                explanation: "Arabic letter Haa - pronounced 'h'",
+                hint: "oval shape with two dots - twenty-sixth letter",
+                audio: "audio/letters/haa_soft.mp3"
+            },
+            {
+                arabic: "و",
+                transliteration: "Waaw",
+                pronunciation: "w",
+                explanation: "Arabic letter Waaw - pronounced 'w'",
+                hint: "curved hook shape - twenty-seventh letter",
+                audio: "audio/letters/waaw.mp3"
+            },
+            {
+                arabic: "ي",
+                transliteration: "Yaa",
+                pronunciation: "y",
+                explanation: "Arabic letter Yaa - pronounced 'y'",
+                hint: "curved with two dots below - twenty-eighth letter",
+                audio: "audio/letters/yaa.mp3"
             },
             {
                 arabic: "ض",
