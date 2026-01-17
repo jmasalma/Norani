@@ -1,0 +1,42 @@
+package com.google.android.gms.internal.ads;
+
+import android.content.SharedPreferences;
+import java.util.Objects;
+
+/* compiled from: com.google.android.gms:play-services-ads-api@@24.5.0 */
+final class zzbdb implements zzbft {
+    final /* synthetic */ SharedPreferences zza;
+
+    zzbdb(zzbdc zzbdc, SharedPreferences sharedPreferences) {
+        this.zza = sharedPreferences;
+        Objects.requireNonNull(zzbdc);
+    }
+
+    public final Boolean zza(String str, boolean z) {
+        try {
+            return Boolean.valueOf(this.zza.getBoolean(str, z));
+        } catch (ClassCastException unused) {
+            return Boolean.valueOf(this.zza.getString(str, String.valueOf(z)));
+        }
+    }
+
+    public final Double zzb(String str, double d) {
+        try {
+            return Double.valueOf((double) this.zza.getFloat(str, (float) d));
+        } catch (ClassCastException unused) {
+            return Double.valueOf(this.zza.getString(str, String.valueOf(d)));
+        }
+    }
+
+    public final Long zzc(String str, long j) {
+        try {
+            return Long.valueOf(this.zza.getLong(str, j));
+        } catch (ClassCastException unused) {
+            return Long.valueOf((long) this.zza.getInt(str, (int) j));
+        }
+    }
+
+    public final String zzd(String str, String str2) {
+        return this.zza.getString(str, str2);
+    }
+}

@@ -1,0 +1,12 @@
+package com.google.android.gms.internal.ads;
+
+/* compiled from: com.google.android.gms:play-services-ads@@24.5.0 */
+public final class zzchb implements zzhgr {
+    public static zzchb zza() {
+        return zzcha.zza;
+    }
+
+    public final /* synthetic */ Object zzb() {
+        return new zzcgz();
+    }
+}

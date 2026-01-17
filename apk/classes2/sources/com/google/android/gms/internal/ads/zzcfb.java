@@ -1,0 +1,17 @@
+package com.google.android.gms.internal.ads;
+
+import android.content.DialogInterface;
+import android.webkit.JsPromptResult;
+
+/* compiled from: com.google.android.gms:play-services-ads@@24.5.0 */
+final class zzcfb implements DialogInterface.OnCancelListener {
+    final /* synthetic */ JsPromptResult zza;
+
+    zzcfb(JsPromptResult jsPromptResult) {
+        this.zza = jsPromptResult;
+    }
+
+    public final void onCancel(DialogInterface dialogInterface) {
+        this.zza.cancel();
+    }
+}

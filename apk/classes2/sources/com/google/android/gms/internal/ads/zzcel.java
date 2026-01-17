@@ -1,0 +1,10 @@
+package com.google.android.gms.internal.ads;
+
+/* compiled from: com.google.android.gms:play-services-ads@@24.5.0 */
+public final /* synthetic */ class zzcel {
+    public final /* synthetic */ zzceo zza;
+
+    public /* synthetic */ zzcel(zzceo zzceo) {
+        this.zza = zzceo;
+    }
+}

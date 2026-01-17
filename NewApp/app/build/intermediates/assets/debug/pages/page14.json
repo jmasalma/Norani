@@ -1,0 +1,742 @@
+{
+  "pageId": 14,
+  "pageName": "page14",
+  "backgroundImage": "page14",
+  "helpDialog": "dialog_p14",
+  "sections": [
+    {
+      "sectionId": "section_0",
+      "type": "GRID",
+      "layout": {
+        "rows": 1,
+        "cols": 1,
+        "position": {
+          "left": 100,
+          "top": 100
+        },
+        "itemSize": {
+          "width": 145,
+          "height": 115
+        },
+        "spacing": {
+          "horizontal": 10,
+          "vertical": 10
+        }
+      },
+      "items": [
+        {
+          "id": "item_0",
+          "image": "p14title_l0_0",
+          "audio": "p14_title",
+          "hoverImage": "p14title_l0_0_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 0,
+            "col": 0
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "section_1",
+      "type": "GRID",
+      "layout": {
+        "rows": 3,
+        "cols": 6,
+        "position": {
+          "left": 100,
+          "top": 100
+        },
+        "itemSize": {
+          "width": 145,
+          "height": 115
+        },
+        "spacing": {
+          "horizontal": 10,
+          "vertical": 10
+        }
+      },
+      "items": [
+        {
+          "id": "item_1",
+          "image": "page14a_l0_0",
+          "audio": "p14_word1",
+          "hoverImage": "page14a_l0_0_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "id": "item_2",
+          "image": "page14a_l1_0",
+          "audio": "p14_word2",
+          "hoverImage": "page14a_l1_0_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 0,
+            "col": 1
+          }
+        },
+        {
+          "id": "item_3",
+          "image": "page14a_l2_0",
+          "audio": "p14_word3",
+          "hoverImage": "page14a_l2_0_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 0,
+            "col": 2
+          }
+        },
+        {
+          "id": "item_4",
+          "image": "page14a_l3_0",
+          "audio": "p14_word4",
+          "hoverImage": "page14a_l3_0_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 0,
+            "col": 3
+          }
+        },
+        {
+          "id": "item_5",
+          "image": "page14a_l4_0",
+          "audio": "p14_word5",
+          "hoverImage": "page14a_l4_0_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 0,
+            "col": 4
+          }
+        },
+        {
+          "id": "item_6",
+          "image": "page14a_l5_0",
+          "audio": "p14_word6",
+          "hoverImage": "page14a_l5_0_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 0,
+            "col": 5
+          }
+        },
+        {
+          "id": "item_7",
+          "image": "page14a_l0_1",
+          "audio": "p14_word7",
+          "hoverImage": "page14a_l0_1_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 1,
+            "col": 0
+          }
+        },
+        {
+          "id": "item_8",
+          "image": "page14a_l1_1",
+          "audio": "p14_word8",
+          "hoverImage": "page14a_l1_1_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 1,
+            "col": 1
+          }
+        },
+        {
+          "id": "item_9",
+          "image": "page14a_l2_1",
+          "audio": "p14_word9",
+          "hoverImage": "page14a_l2_1_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 1,
+            "col": 2
+          }
+        },
+        {
+          "id": "item_10",
+          "image": "page14a_l3_1",
+          "audio": "p14_word10",
+          "hoverImage": "page14a_l3_1_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 1,
+            "col": 3
+          }
+        },
+        {
+          "id": "item_11",
+          "image": "page14a_l4_1",
+          "audio": "p14_word11",
+          "hoverImage": "page14a_l4_1_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 1,
+            "col": 4
+          }
+        },
+        {
+          "id": "item_12",
+          "image": "page14a_l5_1",
+          "audio": "p14_word12",
+          "hoverImage": "page14a_l5_1_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 1,
+            "col": 5
+          }
+        },
+        {
+          "id": "item_13",
+          "image": "page14a_l0_2",
+          "audio": "p14_word13",
+          "hoverImage": "page14a_l0_2_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 2,
+            "col": 0
+          }
+        },
+        {
+          "id": "item_14",
+          "image": "page14a_l1_2",
+          "audio": "p14_word14",
+          "hoverImage": "page14a_l1_2_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 2,
+            "col": 1
+          }
+        },
+        {
+          "id": "item_15",
+          "image": "page14a_l2_2",
+          "audio": "p14_word15",
+          "hoverImage": "page14a_l2_2_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 2,
+            "col": 2
+          }
+        },
+        {
+          "id": "item_16",
+          "image": "page14a_l3_2",
+          "audio": "p14_word16",
+          "hoverImage": "page14a_l3_2_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 2,
+            "col": 3
+          }
+        },
+        {
+          "id": "item_17",
+          "image": "page14a_l4_2",
+          "audio": "p14_word17",
+          "hoverImage": "page14a_l4_2_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 2,
+            "col": 4
+          }
+        },
+        {
+          "id": "item_18",
+          "image": "page14a_l5_2",
+          "audio": "p14_word18",
+          "hoverImage": "page14a_l5_2_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 2,
+            "col": 5
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "section_2",
+      "type": "GRID",
+      "layout": {
+        "rows": 1,
+        "cols": 5,
+        "position": {
+          "left": 100,
+          "top": 100
+        },
+        "itemSize": {
+          "width": 145,
+          "height": 115
+        },
+        "spacing": {
+          "horizontal": 10,
+          "vertical": 10
+        }
+      },
+      "items": [
+        {
+          "id": "item_19",
+          "image": "page14b_l0_0",
+          "audio": "p14_word19",
+          "hoverImage": "page14b_l0_0_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "id": "item_20",
+          "image": "page14b_l1_0",
+          "audio": "p14_word20",
+          "hoverImage": "page14b_l1_0_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 0,
+            "col": 1
+          }
+        },
+        {
+          "id": "item_21",
+          "image": "page14b_l2_0",
+          "audio": "p14_word21",
+          "hoverImage": "page14b_l2_0_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 0,
+            "col": 2
+          }
+        },
+        {
+          "id": "item_22",
+          "image": "page14b_l3_0",
+          "audio": "p14_word22",
+          "hoverImage": "page14b_l3_0_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 0,
+            "col": 3
+          }
+        },
+        {
+          "id": "item_23",
+          "image": "page14b_l4_0",
+          "audio": "p14_word23",
+          "hoverImage": "page14b_l4_0_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 0,
+            "col": 4
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "section_3",
+      "type": "GRID",
+      "layout": {
+        "rows": 3,
+        "cols": 6,
+        "position": {
+          "left": 100,
+          "top": 100
+        },
+        "itemSize": {
+          "width": 145,
+          "height": 115
+        },
+        "spacing": {
+          "horizontal": 10,
+          "vertical": 10
+        }
+      },
+      "items": [
+        {
+          "id": "item_24",
+          "image": "page14c_l0_0",
+          "audio": "p14_word24",
+          "hoverImage": "page14c_l0_0_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "id": "item_25",
+          "image": "page14c_l1_0",
+          "audio": "p14_word25",
+          "hoverImage": "page14c_l1_0_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 0,
+            "col": 1
+          }
+        },
+        {
+          "id": "item_26",
+          "image": "page14c_l2_0",
+          "audio": "p14_word26",
+          "hoverImage": "page14c_l2_0_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 0,
+            "col": 2
+          }
+        },
+        {
+          "id": "item_27",
+          "image": "page14c_l3_0",
+          "audio": "p14_word27",
+          "hoverImage": "page14c_l3_0_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 0,
+            "col": 3
+          }
+        },
+        {
+          "id": "item_28",
+          "image": "page14c_l4_0",
+          "audio": "p14_word28",
+          "hoverImage": "page14c_l4_0_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 0,
+            "col": 4
+          }
+        },
+        {
+          "id": "item_29",
+          "image": "page14c_l5_0",
+          "audio": "p14_word29",
+          "hoverImage": "page14c_l5_0_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 0,
+            "col": 5
+          }
+        },
+        {
+          "id": "item_30",
+          "image": "page14c_l0_1",
+          "audio": "p14_word30",
+          "hoverImage": "page14c_l0_1_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 1,
+            "col": 0
+          }
+        },
+        {
+          "id": "item_31",
+          "image": "page14c_l1_1",
+          "audio": "p14_word31",
+          "hoverImage": "page14c_l1_1_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 1,
+            "col": 1
+          }
+        },
+        {
+          "id": "item_32",
+          "image": "page14c_l2_1",
+          "audio": "p14_word32",
+          "hoverImage": "page14c_l2_1_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 1,
+            "col": 2
+          }
+        },
+        {
+          "id": "item_33",
+          "image": "page14c_l3_1",
+          "audio": "p14_word33",
+          "hoverImage": "page14c_l3_1_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 1,
+            "col": 3
+          }
+        },
+        {
+          "id": "item_34",
+          "image": "page14c_l4_1",
+          "audio": "p14_word34",
+          "hoverImage": "page14c_l4_1_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 1,
+            "col": 4
+          }
+        },
+        {
+          "id": "item_35",
+          "image": "page14c_l5_1",
+          "audio": "p14_word35",
+          "hoverImage": "page14c_l5_1_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 1,
+            "col": 5
+          }
+        },
+        {
+          "id": "item_36",
+          "image": "page14c_l0_2",
+          "audio": "p14_word36",
+          "hoverImage": "page14c_l0_2_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 2,
+            "col": 0
+          }
+        },
+        {
+          "id": "item_37",
+          "image": "page14c_l1_2",
+          "audio": "p14_word37",
+          "hoverImage": "page14c_l1_2_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 2,
+            "col": 1
+          }
+        },
+        {
+          "id": "item_38",
+          "image": "page14c_l2_2",
+          "audio": "p14_word38",
+          "hoverImage": "page14c_l2_2_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 2,
+            "col": 2
+          }
+        },
+        {
+          "id": "item_39",
+          "image": "page14c_l3_2",
+          "audio": "p14_word39",
+          "hoverImage": "page14c_l3_2_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 2,
+            "col": 3
+          }
+        },
+        {
+          "id": "item_40",
+          "image": "page14c_l4_2",
+          "audio": "p14_word40",
+          "hoverImage": "page14c_l4_2_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 2,
+            "col": 4
+          }
+        },
+        {
+          "id": "item_41",
+          "image": "page14c_l5_2",
+          "audio": "p14_word41",
+          "hoverImage": "page14c_l5_2_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 2,
+            "col": 5
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "section_4",
+      "type": "GRID",
+      "layout": {
+        "rows": 2,
+        "cols": 5,
+        "position": {
+          "left": 100,
+          "top": 100
+        },
+        "itemSize": {
+          "width": 145,
+          "height": 115
+        },
+        "spacing": {
+          "horizontal": 10,
+          "vertical": 10
+        }
+      },
+      "items": [
+        {
+          "id": "item_42",
+          "image": "page14d_l0_0",
+          "audio": "p14_word42",
+          "hoverImage": "page14d_l0_0_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 0,
+            "col": 0
+          }
+        },
+        {
+          "id": "item_43",
+          "image": "page14d_l1_0",
+          "audio": "p14_word43",
+          "hoverImage": "page14d_l1_0_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 0,
+            "col": 1
+          }
+        },
+        {
+          "id": "item_44",
+          "image": "page14d_l2_0",
+          "audio": "p14_word44",
+          "hoverImage": "page14d_l2_0_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 0,
+            "col": 2
+          }
+        },
+        {
+          "id": "item_45",
+          "image": "page14d_l3_0",
+          "audio": "p14_word45",
+          "hoverImage": "page14d_l3_0_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 0,
+            "col": 3
+          }
+        },
+        {
+          "id": "item_46",
+          "image": "page14d_l4_0",
+          "audio": "p14_word46",
+          "hoverImage": "page14d_l4_0_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 0,
+            "col": 4
+          }
+        },
+        {
+          "id": "item_47",
+          "image": "page14d_l0_1",
+          "audio": "p14_word47",
+          "hoverImage": "page14d_l0_1_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 1,
+            "col": 0
+          }
+        },
+        {
+          "id": "item_48",
+          "image": "page14d_l1_1",
+          "audio": "p14_word48",
+          "hoverImage": "page14d_l1_1_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 1,
+            "col": 1
+          }
+        },
+        {
+          "id": "item_49",
+          "image": "page14d_l2_1",
+          "audio": "p14_word49",
+          "hoverImage": "page14d_l2_1_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 1,
+            "col": 2
+          }
+        },
+        {
+          "id": "item_50",
+          "image": "page14d_l3_1",
+          "audio": "p14_word50",
+          "hoverImage": "page14d_l3_1_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 1,
+            "col": 3
+          }
+        },
+        {
+          "id": "item_51",
+          "image": "page14d_l4_1",
+          "audio": "p14_word51",
+          "hoverImage": "page14d_l4_1_hover",
+          "position": null,
+          "size": null,
+          "gridPosition": {
+            "row": 1,
+            "col": 4
+          }
+        }
+      ]
+    }
+  ]
+}

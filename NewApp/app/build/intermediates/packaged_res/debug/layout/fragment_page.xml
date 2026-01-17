@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/app_name" />
+
+    <!-- Interactive Items Container -->
+    <FrameLayout
+        android:id="@+id/itemsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Control Buttons Container -->
+    <LinearLayout
+        android:id="@+id/controlsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <!-- Play Button -->
+        <ImageButton
+            android:id="@+id/playButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/play"
+            android:contentDescription="Play" />
+
+        <!-- Pause Button -->
+        <ImageButton
+            android:id="@+id/pauseButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/pause"
+            android:contentDescription="Pause" />
+
+        <!-- Stop Button -->
+        <ImageButton
+            android:id="@+id/stopButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/stop"
+            android:contentDescription="Stop" />
+
+        <!-- Repeat Button -->
+        <ImageButton
+            android:id="@+id/repeatButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/repeat"
+            android:contentDescription="Repeat" />
+
+        <!-- Repeat Count -->
+        <TextView
+            android:id="@+id/repeatCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="18sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <!-- Page Number Display -->
+    <TextView
+        android:id="@+id/pageNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

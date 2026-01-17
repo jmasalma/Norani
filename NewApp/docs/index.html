@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق نوراني - Norani App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app-container">
+        <!-- Navigation Controls -->
+        <div id="navigation">
+            <button id="prev-btn" class="nav-btn" aria-label="Previous page">&#10094;</button>
+            <div id="page-indicator">
+                <span id="current-page">1</span> / <span id="total-pages">24</span>
+            </div>
+            <button id="next-btn" class="nav-btn" aria-label="Next page">&#10095;</button>
+        </div>
+
+        <!-- Page Selector -->
+        <div id="page-selector">
+            <label for="page-select">انتقل إلى صفحة:</label>
+            <select id="page-select" aria-label="Select page">
+                <!-- Options will be populated by JavaScript -->
+            </select>
+        </div>
+
+        <!-- Audio Controls -->
+        <div id="audio-controls">
+            <button id="play-all-btn" class="control-btn" title="تشغيل الكل">
+                <span class="icon">▶</span> تشغيل الكل
+            </button>
+            <button id="pause-btn" class="control-btn" title="إيقاف مؤقت" disabled>
+                <span class="icon">⏸</span> إيقاف
+            </button>
+            <button id="stop-btn" class="control-btn" title="توقف" disabled>
+                <span class="icon">⏹</span> توقف
+            </button>
+            <button id="repeat-btn" class="control-btn" title="تكرار">
+                <span class="icon">🔄</span> تكرار
+            </button>
+            <div id="repeat-counter" style="display: none;">
+                التكرار: <span id="repeat-count">0</span>
+            </div>
+        </div>
+
+        <!-- Main Content Area -->
+        <div id="main-content">
+            <div id="page-container">
+                <!-- Background will be set dynamically -->
+                <div id="page-background"></div>
+                
+                <!-- Interactive items will be added here -->
+                <div id="interactive-items"></div>
+                
+                <!-- Help Dialog -->
+                <div id="help-dialog" style="display: none;">
+                    <div class="dialog-overlay" id="dialog-overlay"></div>
+                    <div class="dialog-content">
+                        <button id="close-dialog" class="close-btn">✕</button>
+                        <img id="dialog-image" src="" alt="مساعدة">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Help Button -->
+        <button id="help-btn" class="help-button" title="مساعدة">
+            <span class="icon">?</span>
+        </button>
+
+        <!-- Loading Indicator -->
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>جاري التحميل...</p>
+        </div>
+
+        <!-- Error Message -->
+        <div id="error-message" class="error-message" style="display: none;">
+            <p>حدث خطأ في تحميل الصفحة. يرجى المحاولة مرة أخرى.</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

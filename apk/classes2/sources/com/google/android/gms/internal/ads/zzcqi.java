@@ -1,0 +1,14 @@
+package com.google.android.gms.internal.ads;
+
+/* compiled from: com.google.android.gms:play-services-ads@@24.5.0 */
+public final /* synthetic */ class zzcqi implements Runnable {
+    public final /* synthetic */ zzcfg zza;
+
+    public /* synthetic */ zzcqi(zzcfg zzcfg) {
+        this.zza = zzcfg;
+    }
+
+    public final void run() {
+        this.zza.onResume();
+    }
+}

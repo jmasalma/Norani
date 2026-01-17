@@ -1,0 +1,39 @@
+package com.google.android.gms.internal.ads;
+
+import java.util.Arrays;
+import java.util.Objects;
+
+/* compiled from: com.google.android.gms:play-services-ads@@24.5.0 */
+public final class zzahb extends zzahf {
+    public final String zza;
+    public final String zzb;
+    public final String zzc;
+    public final byte[] zzd;
+
+    public zzahb(String str, String str2, String str3, byte[] bArr) {
+        super("GEOB");
+        this.zza = str;
+        this.zzb = str2;
+        this.zzc = str3;
+        this.zzd = bArr;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj != null && getClass() == obj.getClass()) {
+            zzahb zzahb = (zzahb) obj;
+            return Objects.equals(this.zza, zzahb.zza) && Objects.equals(this.zzb, zzahb.zzb) && Objects.equals(this.zzc, zzahb.zzc) && Arrays.equals(this.zzd, zzahb.zzd);
+        }
+    }
+
+    public final int hashCode() {
+        String str = this.zza;
+        return (((((((str != null ? str.hashCode() : 0) + 527) * 31) + this.zzb.hashCode()) * 31) + this.zzc.hashCode()) * 31) + Arrays.hashCode(this.zzd);
+    }
+
+    public final String toString() {
+        return this.zzf + ": mimeType=" + this.zza + ", filename=" + this.zzb + ", description=" + this.zzc;
+    }
+}

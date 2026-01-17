@@ -1,0 +1,6 @@
+package com.google.android.gms.internal.ads;
+
+/* compiled from: com.google.android.gms:play-services-ads@@24.5.0 */
+public interface zzra {
+    public static final zzra zza = new zzrq(new zzrp());
+}

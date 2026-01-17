@@ -1,0 +1,6 @@
+package com.google.android.gms.ads.internal.overlay;
+
+/* compiled from: com.google.android.gms:play-services-ads@@24.5.0 */
+public interface zzah {
+    void zzj();
+}
